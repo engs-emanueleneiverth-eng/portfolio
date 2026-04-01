@@ -1,0 +1,116 @@
+        /* Vai definir o estilo do corpo da página */
+        body {
+            /* Fonte geral da página */
+            font-family: Playfair Display;
+            /* Cor de fundo */
+            background-color: #f5f7fa;
+            /* Espaço externo */
+            margin: 0;
+            /* Espaço interno */
+            padding: 0;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            /* Cor de fundo */
+            background-color: #7d6ba0;
+            /* Cor do texto */
+            color: white;
+            /* Centralização do texto */
+            text-align: center;
+            /* Espaço interno */
+            padding: 20px 0;
+        }
+
+        /* Estilo das seções */
+        section {
+            /* Espaço interno entre elas */
+            padding: 20px;
+            /* Espaço externo */
+            margin: 10px auto;
+            /* Cor de Fundo */
+            background-color: #f5f7fa;
+            /* Bordas arredondadas */
+            border-radius: 8px;
+            /* Define o tamanho das seções */
+            max-width: 800px;
+        }
+
+        /* Estilização dos títulos */
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        /* Estilização dos parágrafos */
+        p {
+            /* Define a altura de cada linha */
+            line-height: 1.5;
+        }
+
+        /* Lista não ordenada */
+        ul {
+            /* Estilização da lista*/
+            list-style: square;
+            /* Espaço interno entre a borda
+            esquerda entre um elemento e seu conteúdo */
+            padding-left: 20px;
+        }
+
+        /* Estilização dos links */
+        a {
+            /* Cores dos links */
+            color: #8e7cc3;
+            text-decoration: none;
+        }
+
+        /* Efeito quando passa o mouse por cima */
+        a:hover {
+            /* Linha que aparece embaixo do texto */
+            text-decoration: underline;
+        }
+
+        /* Seção inferior do portfólio */
+        footer {
+            /* Centralização do texto */
+            text-align: center;
+            /* Espaço interno */
+            padding: 15px;
+            /* Cor de fundo */
+            background-color: #7d6ba0;
+            /* Cor do texto */
+            color: white;
+        }
+
+/* Efeito suave quando passa o mouse nas seções */
+section {
+    /* Cor de fundo das seções */
+    background-color: #ece6ff;
+    /* Bordas arredondadas */
+    border-radius: 10px;
+    /* Espaço interno */
+    padding: 20px;
+    /* Espaço externo e centralização */
+    margin: 10px auto;
+    /* Faz qualquer mudança na seção ser suave */
+    transition: 0,3s;
+}
+
+/* Quando o mouse passar nas seções
+ele vai aplicar o que está dentro das chaves */
+section:hover {
+    /* Com está função ele vai levantar levemente
+    a seção quando o mouse passar por cima */
+    transform: scale(1.05);
+}
+
+/* Estilização da imagem de perfil */
+.avatar {
+    /* Transforma em um bloco para centralizar */
+    display: block;
+    /* Centraliza a imagem */
+    margin: 0 auto 15px auto;
+    /* Largura da imagem */
+    width: 120px;
+    /* Altura da imagem */
+    height: 120px;
+}
